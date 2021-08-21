@@ -1,0 +1,1 @@
+make a temporary variable and ask the user whether he wants to use the result for further calculation, if yes: temp = first number; 
