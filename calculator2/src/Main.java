@@ -11,15 +11,15 @@ public class Main {
 
             //calling constructor
             CalculatorMethods calculatorMethods = new CalculatorMethods(firstNumber, secondNumber);
-
+            
             String choiceQ = JOptionPane.showInputDialog("Choose an operation:"
-                    + '\n'  + " For addition               ( + )"
-                    + '\n' + "  For subtraction        ( - )"
+                    + '\n'  + " For addition          ( + )"
+                    + '\n' + "  For subtraction       ( - )"
                     + '\n' + "  For multiplication    ( * )"
-                    + '\n' + "  For division               ( / )"
+                    + '\n' + "  For division          ( / )"
                     + '\n' + "  For percentage        ( % )"
-                    + '\n' + "  For sum of field       ( s )"
-                    + '\n' + "  For average              ( a )", choice);
+                    + '\n' + "  For sum of field      ( s )"
+                    + '\n' + "  For average           ( a )", choice);
 
             // will read the character
             choice = choiceQ.charAt(0);
