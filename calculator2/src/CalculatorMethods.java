@@ -45,4 +45,3 @@ public class CalculatorMethods {
     }
 
 }
-//to delete tab  click in the beginning of the line and then click alt and select space then del
